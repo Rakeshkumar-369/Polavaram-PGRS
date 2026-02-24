@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Government Typography Styling */
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+  background-color: #f9fafb;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Merriweather', serif;
+  letter-spacing: 0.3px;
+}
+
+:root {
+  --gov-primary: #0b3d91;
+  --gov-primary-light: #123e8c;
+  --gov-accent: #c6a64f;       /* Muted Gold */
+  --gov-bg: #f4f6f9;
+  --gov-text: #1f2937;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--gov-text);
+  background-color: var(--gov-bg);
+}
